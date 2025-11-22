@@ -1,0 +1,39 @@
+﻿Initialized native services in: C:\Users\dell\.gradle\native
+Initialized jansi services in: C:\Users\dell\.gradle\native
+Found daemon DaemonInfo{pid=7308, address=[dbd54daa-236f-4c86-861f-58739d4a701b port:51374, addresses:[/127.0.0.1]], state=Idle, lastBusy=1763784738382, context=DefaultDaemonContext[uid=98c95dc0-9105-4355-8a0a-91da7906fc37,javaHome=C:\Program Files\Java\jdk-23,javaVersion=23,javaVendor=Oracle Corporation,daemonRegistryDir=C:\Users\dell\.gradle\daemon,pid=7308,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Java\jdk-1.8 (no JDK specified, using current Java home), daemonOpts=[-Xmx2048m, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=98c95dc0-9105-4355-8a0a-91da7906fc37,javaHome=C:\Program Files\Java\jdk-23,javaVersion=23,javaVendor=Oracle Corporation,daemonRegistryDir=C:\Users\dell\.gradle\daemon,pid=7308,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+Found daemon DaemonInfo{pid=14056, address=[67027175-9f91-4ccf-a71b-ada756e24dc5 port:55803, addresses:[/127.0.0.1]], state=Idle, lastBusy=1763793008460, context=DefaultDaemonContext[uid=c7a12ea9-3163-40d0-8d08-45cdb175bb4e,javaHome=C:\Program Files\Android\Android Studio\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\Users\dell\.gradle\daemon,pid=14056,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Java\jdk-1.8 (no JDK specified, using current Java home), daemonOpts=[-Xmx2048m, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=c7a12ea9-3163-40d0-8d08-45cdb175bb4e,javaHome=C:\Program Files\Android\Android Studio\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\Users\dell\.gradle\daemon,pid=14056,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 33744). The daemon log file: C:\Users\dell\.gradle\daemon\8.13\daemon-33744.out.log
+Starting 20th build in daemon [uptime: 4 hrs 22 mins 46.138 secs, performance: 98%, GC rate: 0.50/s, heap usage: 1% of 1.3 GiB]
+Using 22 worker leases.
+Now considering [C:\Users\dell\AndroidStudioProjects\MyApplication6] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\dell\AndroidStudioProjects\MyApplication6\settings.gradle.kts'.
+Projects loaded. Root project using build file 'C:\Users\dell\AndroidStudioProjects\MyApplication6\build.gradle.kts'.
+Included projects: [root project 'My Application', project ':app']
+
+> Configure project :
+Evaluating root project 'My Application' using build file 'C:\Users\dell\AndroidStudioProjects\MyApplication6\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.13.1', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.0.21', apply: false]
+Variant Selection Exception: org.gradle.internal.component.resolution.failure.exception.VariantSelectionByAttributesException caused by Resolution Failure: org.gradle.internal.component.resolution.failure.type.NoCompatibleVariantsFailure
+
+[Incubating] Problems report is available at: file:///C:/Users/dell/AndroidStudioProjects/MyApplication6/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+Watched directory hierarchies: []
